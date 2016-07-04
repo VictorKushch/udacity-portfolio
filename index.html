@@ -4,17 +4,18 @@
 	<meta charset="utf-8">
 	<title>Victor Kushch Portfolio Page</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,300,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
     <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <script src="js/picturefill.js"></script>
 
 </head>
 <body>
     <header>
         <div class="logo">
-            <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-briefcase" aria-hidden="true">{V}</span>
         </div>
     <!--    <logo>
             <span class="glyphicon glyphicon-briefcase"></span>
@@ -26,8 +27,9 @@
     </header>
     <section class="hero">
         <picture>
-                <sources></sources>
-                <img src="http://placehold.it/1280x450" alt="Main image">
+            <source srcset="/img/code_small.jpg" media="(max-width: 350px)">
+         <!--   <source srcset="/img/code_small.jpg" media="(max-width: 350px)">   -->
+            <img src="/img/code.jpg" alt="Code screenshot">
         </picture>
     </section>
     <section class="futured-work">
