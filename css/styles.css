@@ -83,3 +83,20 @@ section {
     text-align: right;
     width: 80%;
 }
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.fw-title h2 {
+    text-align: left;
+}
+
+.futured-work {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.fw-title {
+    width: 100%;
+}
