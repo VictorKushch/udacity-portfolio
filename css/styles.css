@@ -112,10 +112,17 @@ figcaption {
 }
 
 .col-4 {
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .middle {
     margin-left: auto;
     margin-right: auto;
 }
+
+.img-responsive {
+    max-width: 320px;
+    -webkit-filter: brightness(90%);
+}
+
