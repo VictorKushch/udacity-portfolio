@@ -61,8 +61,10 @@ section {
 }
 
 .row {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    width: 100%;
 
 }
 
@@ -99,9 +101,19 @@ section {
 
 .fw-title {
     width: 100%;
+    margin-left: 0px;
 }
 
 figcaption {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.col-4 {
+
+}
+
+.middle {
+    margin-left: auto;
+    margin-right: auto;
 }
