@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 3.5em;
+    margin-bottom: 10px;
 }
 
 /* Helpers */
@@ -74,7 +75,7 @@ section {
 
 
 .glyphicon {
-
+    color: #02b3e4;
 }
 
 .glyphicon-briefcase {
@@ -92,6 +93,7 @@ section {
 
 .fw-title h2 {
     text-align: left;
+    COLOR: #7d97ad;
 }
 
 .futured-work {

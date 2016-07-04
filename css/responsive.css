@@ -5,7 +5,7 @@
     }
 
 /*0-350*/
-@media (max-width: 350px) {
+@media (max-width: 344px) {
     h1 {
         font-size: 2em;
         margin-right: 5px;
@@ -19,6 +19,9 @@
         font-size: 3em;
         padding-top: 35px;
     }
+    .title {
+        width: 75%;
+    }
     .fw-title h2 {
         text-align: center;
         width: 100%;
@@ -27,21 +30,24 @@
         margin-left: auto;
         margin-right: auto;
     }
-
-@media screen and (min-width: 351px) and (max-width: 560px) {
+}
+ @media screen and (min-width: 345px) and (max-width: 619px) {
     h1 {
         font-size: 2.0em;
-        margin-right: 10px;
+        margin-right: 5px;
     }
     h3 {
         font-size: 1.5em;
         margin-right: 10px;
     }
     .logo {
-        padding-left: 10px;
+        padding-left: 5px;
         font-size: 4em;
         padding-top: 35px;
     }
+     .title {
+        width: 77%;
+     }
     .fw-title h2 {
         text-align: center;
         width: 100%;
@@ -49,6 +55,21 @@
     .col-4 {
         margin-left: auto;
         margin-right: auto;
+        padding: 5px;
     }
 
+    }
+@media screen and (min-width: 620px) and (max-width: 980px) {
+    .logo {
+        margin-left: 10px;
+    }
+    .title {
+        margin-right: 10px;
+        width: 75%;
+    }
+    .col-4 {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+    }
     }
