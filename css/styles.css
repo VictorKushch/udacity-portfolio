@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+h1 {
+    font-size: 3.5em;
+}
+
 /* Helpers */
 .clearfix {
 	clear: both;
@@ -29,6 +33,8 @@ header {
     height: 150px;
     display: flex;
     flex-wrap: wrap;
+    border-bottom: solid black 2px;
+    margin-bottom: 30px;
 }
 
 logo {
@@ -45,7 +51,7 @@ title {
     height: inherit;
     color: black;
     font-size: 5em;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -71,4 +77,9 @@ section {
 
 .glyphicon-briefcase {
     vertical-align: middle;
+}
+
+.title {
+    text-align: right;
+    width: 80%;
 }
