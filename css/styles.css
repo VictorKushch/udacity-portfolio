@@ -33,7 +33,7 @@ header {
     height: 150px;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: solid black 2px;
+    border-bottom: solid #7d97ad 3px;
     margin-bottom: 30px;
 }
 
