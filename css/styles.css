@@ -45,7 +45,7 @@ logo {
 	width: 20%;
 }
 
-.logo span {
+.logo-span {
 	line-height: 150px;
 	display: inline-block;
 	vertical-align: middle;
@@ -76,7 +76,7 @@ section {
 	width: 100%;
 }
 
-.hero img {
+.hero_image {
 	max-width: 100%;
 }
 
@@ -97,7 +97,7 @@ section {
 	margin-bottom: 20px;
 }
 
-.fw-title h2 {
+.h2-title {
 	text-align: left;
 	COLOR: #7d97ad;
 }
