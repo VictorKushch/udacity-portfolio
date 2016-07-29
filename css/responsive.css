@@ -1,80 +1,91 @@
 @media (max-width: 980px) {
-    body {
-        width: 100%;
-    }
+	body {
+		width: 100%;
+	}
 
 /*0-350*/
 @media (max-width: 344px) {
-    h1 {
+		h1 {
         font-size: 2em;
-        margin-right: 5px;
-    }
-    h3 {
-        font-size: 1em;
-        margin-right: 5px;
-    }
-    .logo {
-        padding-left: 10px;
-        font-size: 3em;
-        display: inline-block;
-        vertical-align: middle;
-    }
-    .title {
-        width: 75%;
-    }
-    .h2-title {
-        text-align: center;
-        width: 100%;
-    }
-    .col-4 {
-        margin-left: auto;
-        margin-right: auto;
-    }
+		margin-right: 5px;
+	}
+
+	h3 {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	.logo {
+		padding-left: 10px;
+		font-size: 3em;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.title {
+		width: 75%;
+	}
+
+	.h2-title {
+		text-align: center;
+		width: 100%;
+	}
+
+	.col-4 {
+		margin-left: auto;
+		margin-right: auto;
+	};
 }
 /*345-619*/
- @media screen and (min-width: 345px) and (max-width: 619px) {
-    h1 {
-        font-size: 2.0em;
-        margin-right: 5px;
-    }
-    h3 {
-        font-size: 1.5em;
-        margin-right: 10px;
-    }
-    .logo {
-        padding-left: 10px;
-        font-size: 4em;
-        display: inline-block;
-        vertical-align: middle;
-    }
-     .title {
-        width: 77%;
-     }
-    .h2-title {
-        text-align: center;
-        width: 100%;
-    }
-    .col-4 {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 5px;
-    }
+@media screen and (min-width: 345px) and (max-width: 619px) {
+	h1 {
+		font-size: 2.0em;
+		margin-right: 5px;
+	}
 
-    }
+	h3 {
+		font-size: 1.5em;
+		margin-right: 10px;
+	}
+
+	.logo {
+		padding-left: 10px;
+		font-size: 4em;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.title {
+		width: 77%;
+	}
+
+	.h2-title {
+		text-align: center;
+		width: 100%;
+	}
+
+	.col-4 {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+	};
+}
 /*620-980*/
 @media screen and (min-width: 620px) and (max-width: 980px) {
-    .logo {
-        margin-left: 10px;
-        display: inline-block;
-        vertical-align: middle;
-    }
-    .title {
-        margin-right: 10px;
-        width: 75%;
-    }
-    .col-4 {
-        margin-left: auto;
-        margin-right: auto;
-        padding: 5px;
-    }
-    }
+	.logo {
+		margin-left: 10px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.title {
+		margin-right: 10px;
+		width: 75%;
+	}
+
+	.col-4 {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+	};
+}
