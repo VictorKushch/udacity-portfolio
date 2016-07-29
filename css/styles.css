@@ -18,8 +18,8 @@ h6 {
 }
 
 h1 {
-    font-size: 3.5em;
-    margin-bottom: 10px;
+	font-size: 3.5em;
+	margin-bottom: 10px;
 }
 
 /* Helpers */
@@ -33,105 +33,101 @@ h1 {
 	overflow: hidden;
 }
 
-
 header {
-    height: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    border-bottom: solid #7d97ad 3px;
-    margin-bottom: 30px;
+	height: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: solid #7d97ad 3px;
+	margin-bottom: 30px;
 }
 
 logo {
-    width: 20%;
+	width: 20%;
 }
 
 .logo span {
-    line-height: 150px;
-    display: inline-block;
-    vertical-align: middle;
+	line-height: 150px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 title {
-    width: 80%;
-    height: inherit;
+	width: 80%;
+	height: inherit;
 }
 
 .logo {
-    width: 20%;
-    height: inherit;
-    color: black;
-    font-size: 5em;
-    text-align: left;
-
+	width: 20%;
+	height: inherit;
+	color: black;
+	font-size: 5em;
+	text-align: left;
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0px;
-    width: 100%;
-
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 0px;
+	width: 100%;
 }
 
 .hero img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
-
 .glyphicon {
-    color: #02b3e4;
+	color: #02b3e4;
 }
 
 .glyphicon-briefcase {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 
 .title {
-    text-align: right;
-    width: 80%;
+	text-align: right;
+	width: 80%;
 }
 
 .hero {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .fw-title h2 {
-    text-align: left;
-    COLOR: #7d97ad;
+	text-align: left;
+	COLOR: #7d97ad;
 }
 
 .futured-work {
-    width: 100%;
+	width: 100%;
 }
 
 .fw-title {
-    width: 100%;
-    margin-left: 0px;
+	width: 100%;
+	margin-left: 0px;
 }
 
 figcaption {
-    text-align: center;
-    margin-bottom: 40px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 .col-4 {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .middle {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .img-responsive {
-    max-width: 320px;
-    -webkit-filter: brightness(90%);
+	max-width: 320px;
+	-webkit-filter: brightness(90%);
 }
 
